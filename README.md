@@ -123,13 +123,13 @@ Once covered code has been published under a particular version
 of the license, you may always continue to use it under the terms
 of that version. You may also choose to use such covered code
 under the terms of any subsequent version of the license
-published by the PHP Group. No one other than the PHP Group has
+published by omni. No one other than omni has
 the right to modify the terms applicable to covered code created
 under this License.
 
 6. Redistributions of any form whatsoever must retain the following
 acknowledgment as well as the BierBot mini splash screen (see 7.):
-"This product includes PHP, freely available from <https://bierbot.de/>".
+"This product is powered by BierBot mini, freely available from <https://bierbot.de/>".
 
 
 THIS SOFTWARE IS PROVIDED BY THE omni DEVELOPMENT TEAM ``AS IS'' AND
@@ -145,20 +145,15 @@ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 OF THE POSSIBILITY OF SUCH DAMAGE.
 
---------------------------------------------------------------------
 
 This software consists of voluntary contributions made by many
 individuals on behalf of omni.
 
 omni can be contacted via Email at hello@bierbot.com.
 
-For more information on the PHP Group and the PHP project,
-please see <https://www.bierbot.de>.
+For more information on tje BierBot please see <https://www.bierbot.de>.
 
 7. Redistributions of any form whatsoever must retain the BierBot 
 mini splash screen. The splash screen includes the black mashing pan 
 icon with the bolt in the middle, the text saying "BierBot mini" as
 well as the current software version.
-
-8. You must indicate that your software is based on the BierBot Software
-by saying "powered by BierBot"
