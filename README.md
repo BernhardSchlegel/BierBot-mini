@@ -127,8 +127,13 @@ published by omni. No one other than omni has
 the right to modify the terms applicable to covered code created
 under this License.
 
+7. Redistributions of any form whatsoever must retain the BierBot 
+mini splash screen. The splash screen includes the black mashing pan 
+icon with the bolt in the middle, the text saying "BierBot mini" as
+well as the current software version.
+
 6. Redistributions of any form whatsoever must retain the following
-acknowledgment as well as the BierBot mini splash screen (see 7.):
+acknowledgment as well as the BierBot mini splash screen:
 "This product is powered by BierBot mini, freely available from <https://bierbot.de/>".
 
 
@@ -152,8 +157,3 @@ individuals on behalf of omni.
 omni can be contacted via Email at hello@bierbot.com.
 
 For more information on tje BierBot please see <https://www.bierbot.de>.
-
-7. Redistributions of any form whatsoever must retain the BierBot 
-mini splash screen. The splash screen includes the black mashing pan 
-icon with the bolt in the middle, the text saying "BierBot mini" as
-well as the current software version.
