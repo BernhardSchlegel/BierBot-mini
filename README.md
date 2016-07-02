@@ -78,6 +78,7 @@ The following settings are supported
 - Stabilize pointer movement in main menu (esp. after boot)
 - Reduce increments for the rotary encoder when turning fast
 - Evaluate limits for times, temperatures and hops (cooking min minutes to 0? hops to 0?
+- put rests into structs
 
 ## Contributions
 
@@ -156,4 +157,4 @@ individuals on behalf of omni.
 
 omni can be contacted via Email at hello@bierbot.com.
 
-For more information on tje BierBot please see <https://www.bierbot.de>.
+For more information on the BierBot please see <https://www.bierbot.de>.
