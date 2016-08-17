@@ -1,7 +1,7 @@
 ![BierBot mini](https://github.com/BernhardSchlegel/BierBot-mini/blob/master/img/BierBot_mini-Logo_1024x138.png)
 ## Arduino powered beer brewing software
 
-## What this software does
+### What this software does
 
 This software runs on any "arduino compatible" board. It gives enthusiastic homebrewers full control over any temperature in the brewing and fermenting process. 
 
@@ -12,11 +12,22 @@ The brewcontrol is controlled using a turn and push incremental encoder using a 
 
 ![BierBot mini splash screen](https://github.com/BernhardSchlegel/BierBot-mini/blob/master/img/01_splash.png)
 
-## How this software is used
+### How to install the Software on your Arduino
 
-A german manual is availalbe [here](https://bierbot.de/data/BierBot_mini_de_v.1.0.pdf).
+First, you have to make sure, that the used libraries are available on your System:
 
-### Main Menu
+- **LiquidCrystal**: To avoid compatibility issues please use version 1.2.1, [download here](https://bitbucket.org/fmalpartida/new-liquidcrystal/downloads/LiquidCrystal_V1.2.1.zip) using the green "Clone or Download"-Button and then click on "Download .ZIP" 
+- **Dallastemperaturecontrol**: [download here](https://github.com/milesburton/Arduino-Temperature-Control-Library) using the green "Clone or Download"-Button and then click on "Download .ZIP" 
+- **OneWire**: Add via "Sketch" > "Include library" > "Manage libraries" > Search for "onewire" - it's the one by Jim Studt et. al.
+- **Time**: [download here](https://github.com/PaulStoffregen/Time) using the green "Clone or Download"-Button and then click on "Download .ZIP" > "Install"
+
+After downloading, all ZIP-files can be added using "Sketch" > "Include library" > "Add .ZIP Library..."
+
+### How this software is used
+
+A german manual is available [here](https://bierbot.de/data/BierBot_mini_de_v.1.0.pdf).
+
+#### Main Menu
 
 After booting, the menu is displayed (for now, only on german)
 
@@ -71,7 +82,7 @@ The following settings are supported
 - "ESVHeizen"/"TOD-Heat": Turn on delay for heating. This value defines how much time needs to pass before the outlet is being turned on again (to go easy on your equipment)
 - "ESCKühl"/"TOD-Cool": Same as "TOD-Heat" - just for cooling. 
 
-## Open points / TODOs
+### Open points / TODOs
 
 - Support multi-language
 - Resume after power off
@@ -80,11 +91,11 @@ The following settings are supported
 - Evaluate limits for times, temperatures and hops (cooking min minutes to 0? hops to 0?
 - put rests into structs
 
-## Contributions
+### Contributions
 
 Contributions are welcome and may be submitted as pull request.
 
-## Thanks
+### Thanks
 
 Thanks to Thanks to Bitter, Borsti84, Joerg from [braumagazin.de](http://braumagazin.de/), Bodo and all the other great and passionate guys from THE german hobbybrauer community [hobbybrauer.de](http://hobbybrauer.de/)
 
@@ -135,8 +146,8 @@ well as the current software version.
 
 6. Redistributions of any form whatsoever must retain the following
 acknowledgment as well as the BierBot mini splash screen:
-"This product is powered by BierBot mini, freely available from <https://bierbot.de/>".
-
+"This product is powered by BierBot mini, freely available from 
+<https://bierbot.de/>".
 
 THIS SOFTWARE IS PROVIDED BY THE omni DEVELOPMENT TEAM ``AS IS'' AND
 ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
@@ -151,10 +162,9 @@ STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
 OF THE POSSIBILITY OF SUCH DAMAGE.
 
-
 This software consists of voluntary contributions made by many
 individuals on behalf of omni.
 
 omni can be contacted via Email at hello@bierbot.com.
 
-For more information on the BierBot please see <https://www.bierbot.de>.
+For more information on the BierBot please see <https://bierbot.de>.
