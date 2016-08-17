@@ -23,6 +23,21 @@ First, you have to make sure, that the used libraries are available on your Syst
 
 After downloading, all ZIP-files can be added using "Sketch" > "Include library" > "Add .ZIP Library..."
 
+### How to connect your hardware to the Arduino
+
+
+| GPIO    | What                                       |
+| --------| ------------------------------------------ | 
+| A4      | Display SDA                                | 
+| A5      | Display SCL                                | 
+| D2      | Rotary Encoder channel INKR_B              |
+| D3      | Rotary Encoder channel INKR_A              |
+| D4      | Button                                     |
+| D5      | Temperature Sensor (Data, usually yellow)  |
+| D6      | Relais (heating or cooling on/off)         |
+| D7      | Sound for connecting your piezo speaker    |
+
+
 ### How this software is used
 
 A german manual is available [here](https://bierbot.de/data/BierBot_mini_de_v.1.0.pdf).
